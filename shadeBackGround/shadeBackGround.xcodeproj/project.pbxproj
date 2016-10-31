@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2D95F121DC6F3A700395FFC /* UINavigationBar+NavAlpha.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D95F111DC6F3A700395FFC /* UINavigationBar+NavAlpha.m */; };
+		A2DA7BD31DC6E8FE00374EAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DA7BD21DC6E8FE00374EAE /* main.m */; };
+		A2DA7BD61DC6E8FE00374EAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DA7BD51DC6E8FE00374EAE /* AppDelegate.m */; };
+		A2DA7BDE1DC6E8FE00374EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2DA7BDD1DC6E8FE00374EAE /* Assets.xcassets */; };
+		A2DA7BE11DC6E8FE00374EAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DA7BDF1DC6E8FE00374EAE /* LaunchScreen.storyboard */; };
+		A2DA7BEA1DC6E94600374EAE /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DA7BE91DC6E94600374EAE /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2D95F101DC6F3A700395FFC /* UINavigationBar+NavAlpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+NavAlpha.h"; sourceTree = "<group>"; };
+		A2D95F111DC6F3A700395FFC /* UINavigationBar+NavAlpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+NavAlpha.m"; sourceTree = "<group>"; };
+		A2DA7BCE1DC6E8FE00374EAE /* shadeBackGround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shadeBackGround.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DA7BD21DC6E8FE00374EAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2DA7BD41DC6E8FE00374EAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2DA7BD51DC6E8FE00374EAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2DA7BDD1DC6E8FE00374EAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2DA7BE01DC6E8FE00374EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2DA7BE21DC6E8FE00374EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2DA7BE81DC6E94600374EAE /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		A2DA7BE91DC6E94600374EAE /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2DA7BCB1DC6E8FE00374EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2DA7BC51DC6E8FE00374EAE = {
+			isa = PBXGroup;
+			children = (
+				A2DA7BD01DC6E8FE00374EAE /* shadeBackGround */,
+				A2DA7BCF1DC6E8FE00374EAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2DA7BCF1DC6E8FE00374EAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2DA7BCE1DC6E8FE00374EAE /* shadeBackGround.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2DA7BD01DC6E8FE00374EAE /* shadeBackGround */ = {
+			isa = PBXGroup;
+			children = (
+				A2DA7BD41DC6E8FE00374EAE /* AppDelegate.h */,
+				A2DA7BD51DC6E8FE00374EAE /* AppDelegate.m */,
+				A2DA7BE81DC6E94600374EAE /* TableViewController.h */,
+				A2DA7BE91DC6E94600374EAE /* TableViewController.m */,
+				A2D95F101DC6F3A700395FFC /* UINavigationBar+NavAlpha.h */,
+				A2D95F111DC6F3A700395FFC /* UINavigationBar+NavAlpha.m */,
+				A2DA7BDD1DC6E8FE00374EAE /* Assets.xcassets */,
+				A2DA7BDF1DC6E8FE00374EAE /* LaunchScreen.storyboard */,
+				A2DA7BE21DC6E8FE00374EAE /* Info.plist */,
+				A2DA7BD11DC6E8FE00374EAE /* Supporting Files */,
+			);
+			path = shadeBackGround;
+			sourceTree = "<group>";
+		};
+		A2DA7BD11DC6E8FE00374EAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2DA7BD21DC6E8FE00374EAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2DA7BCD1DC6E8FE00374EAE /* shadeBackGround */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DA7BE51DC6E8FE00374EAE /* Build configuration list for PBXNativeTarget "shadeBackGround" */;
+			buildPhases = (
+				A2DA7BCA1DC6E8FE00374EAE /* Sources */,
+				A2DA7BCB1DC6E8FE00374EAE /* Frameworks */,
+				A2DA7BCC1DC6E8FE00374EAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shadeBackGround;
+			productName = shadeBackGround;
+			productReference = A2DA7BCE1DC6E8FE00374EAE /* shadeBackGround.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2DA7BC61DC6E8FE00374EAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "张令林";
+				TargetAttributes = {
+					A2DA7BCD1DC6E8FE00374EAE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A2DA7BC91DC6E8FE00374EAE /* Build configuration list for PBXProject "shadeBackGround" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2DA7BC51DC6E8FE00374EAE;
+			productRefGroup = A2DA7BCF1DC6E8FE00374EAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2DA7BCD1DC6E8FE00374EAE /* shadeBackGround */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2DA7BCC1DC6E8FE00374EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DA7BE11DC6E8FE00374EAE /* LaunchScreen.storyboard in Resources */,
+				A2DA7BDE1DC6E8FE00374EAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2DA7BCA1DC6E8FE00374EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DA7BD61DC6E8FE00374EAE /* AppDelegate.m in Sources */,
+				A2DA7BEA1DC6E94600374EAE /* TableViewController.m in Sources */,
+				A2D95F121DC6F3A700395FFC /* UINavigationBar+NavAlpha.m in Sources */,
+				A2DA7BD31DC6E8FE00374EAE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2DA7BDF1DC6E8FE00374EAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2DA7BE01DC6E8FE00374EAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2DA7BE31DC6E8FE00374EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2DA7BE41DC6E8FE00374EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2DA7BE61DC6E8FE00374EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = shadeBackGround/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itheima.shadeBackGround;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2DA7BE71DC6E8FE00374EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = shadeBackGround/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itheima.shadeBackGround;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2DA7BC91DC6E8FE00374EAE /* Build configuration list for PBXProject "shadeBackGround" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DA7BE31DC6E8FE00374EAE /* Debug */,
+				A2DA7BE41DC6E8FE00374EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2DA7BE51DC6E8FE00374EAE /* Build configuration list for PBXNativeTarget "shadeBackGround" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DA7BE61DC6E8FE00374EAE /* Debug */,
+				A2DA7BE71DC6E8FE00374EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2DA7BC61DC6E8FE00374EAE /* Project object */;
+}
